@@ -1,0 +1,9 @@
+1. Nombre de método, primera letra con minúscula.
+2. String l no es utilizado, no se guarda ni se pinta en el log, bloque de código se retira, 
+	al menos que en la tabla log_values exista campo de mensaje detallado donde se podría insertar dichos datos
+3. Falta de comentarios
+4. Organización por métodos.
+5. Cambio en mensajes o rutas por constantes.
+6. Variable declarada initialized no se utiliza, se retira del código
+7. Optimizar creación de variables dentro del método o validación a usar.
+8. El ConsoleHandler puede ser eliminado ya que sin configuración es lo mismo que colocar logger.log(Level.info, "");
